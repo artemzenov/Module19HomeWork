@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% block pagename %}
+    <!-- Укажите название страницы -->
+    {% endblock %}
+
+    {% block menu %}
+    <a href='//127.0.0.1:8000/platform'><h3>Главная</h3></a>
+    <a href='//127.0.0.1:8000/platform/shop'><h3>Магазин</h3></a>
+    <a href='//127.0.0.1:8000/platform/cart'><h3>Корзина</h3></a>
+    {% endblock %}
+
+    {% block content %}
+    <!-- Укажите контент страницы -->
+    {% endblock %}
+</body>
+</html>

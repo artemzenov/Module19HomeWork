@@ -55,7 +55,7 @@ ROOT_URLCONF = 'module19.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/'templates/second_task',],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
